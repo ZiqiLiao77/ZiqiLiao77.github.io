@@ -6,7 +6,7 @@
   <title>Ziqi Liao | Academic Homepage</title>
   <meta
     name="description"
-    content="Academic homepage of Ziqi Liao, an undergraduate student at Jilin University studying and conducting research under Professor Hongxia Xie."
+    content="Academic homepage of Ziqi Liao, a Software Engineering undergraduate at Jilin University researching large reasoning models, embodied agents, and Theory of Mind."
   />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -17,10 +17,9 @@
       <a href="#about">About me</a>
       <a href="#research">Research Interests</a>
       <a href="#publications">Publications</a>
-      <a href="#presentation">Presentation</a>
+      <a href="#presentation">Presentations</a>
       <a href="#honors">Honors</a>
-      <a href="#invited-talk">Invited Talk</a>
-      <a href="#teaching">Teaching</a>
+      <a href="#teaching">Teaching Experience</a>
     </nav>
   </header>
 
@@ -86,10 +85,10 @@
           </span>
           Research Interests
         </h2>
-        <div class="interest-box">
-          Currently, I am focusing on <strong>Large Reasoning Model</strong>,
-          <strong>Embodied Agents</strong>, and <strong>Multimodal Understanding</strong>.
-        </div>
+        <p class="research-text">
+          Currently, I am focusing on <strong>Large Reasoning Models</strong> and
+          <strong>Embodied Agents</strong>.
+        </p>
       </section>
 
       <section id="publications" class="content-section">
@@ -101,37 +100,96 @@
         </h2>
 
         <article class="publication-item">
-          <p class="paper-meta">CVPR 2026 (CCF-A) | Accepted</p>
-          <h3>MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents</h3>
-          <p>
-            Ruoxuan Zhang, Qiyun Zheng, Zhiyu Zhou, <strong>Ziqi Liao</strong>, Siyu Wu,
-            Jian-Yu Jiang-Lin, Bin Wen, Hongxia Xie, Jianlong Fu, Wen-Huang Cheng.
-          </p>
-          <p>
-            MindPower introduces a robot-centric framework and benchmark for embodied agents to reason
-            about perception, beliefs, desires, intentions, decisions, and actions.
-          </p>
-          <div class="text-links">
-            <a href="assets/mindpower.pdf" target="_blank" rel="noreferrer">[PDF]</a>
-            <a href="https://arxiv.org/abs/2511.23055" target="_blank" rel="noreferrer">[arXiv]</a>
-            <a href="https://zhangdaxia22.github.io/MindPower/" target="_blank" rel="noreferrer">[Project]</a>
-            <a href="https://www.bilibili.com/video/BV1XpRdBjEhp/?share_source=copy_web&amp;vd_source=1cf4854082bc4e5948867316b90c75b4" target="_blank" rel="noreferrer">[Paper Interpretation]</a>
+          <figure class="publication-figure">
+            <img src="assets/publication-mind.png" alt="Overview of the MindPower benchmark and reasoning hierarchy" />
+            <span class="venue-badge">CVPR 2026</span>
+          </figure>
+          <div class="publication-content">
+            <p class="paper-meta">CVPR 2026 (CCF-A) | Published</p>
+            <h3>MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents</h3>
+            <p>
+              Ruoxuan Zhang, Qiyun Zheng, Zhiyu Zhou, <strong>Ziqi Liao</strong>, Siyu Wu,
+              Jian-Yu Jiang-Lin, Bin Wen, Hongxia Xie, Jianlong Fu, Wen-Huang Cheng.
+            </p>
+            <p>
+              MindPower introduces a robot-centric framework and benchmark for embodied agents to reason
+              about perception, beliefs, desires, intentions, decisions, and actions.
+            </p>
+            <div class="text-links">
+              <a href="assets/mindpower.pdf" target="_blank" rel="noreferrer">[PDF]</a>
+              <a href="https://arxiv.org/abs/2511.23055" target="_blank" rel="noreferrer">[arXiv]</a>
+              <a href="https://zhangdaxia22.github.io/MindPower/" target="_blank" rel="noreferrer">[Project]</a>
+              <a href="https://www.bilibili.com/video/BV1XpRdBjEhp/?share_source=copy_web&amp;vd_source=1cf4854082bc4e5948867316b90c75b4" target="_blank" rel="noreferrer">[Paper Interpretation]</a>
+            </div>
           </div>
         </article>
 
         <article class="publication-item">
-          <p class="paper-meta">ACM Computing Surveys (IF: 14.8) | Under Review</p>
-          <h3>Social World Models for Embodied Agents: Theory of Mind, Belief Dynamics, and Coordination</h3>
-          <p>
-            Ruoxuan Zhang, <strong>Ziqi Liao</strong>, Zhiyu Zhou, Jian-Yu Jiang-Lin, Siyu Wu,
-            Yanbo Mao, Bin Wen, Hongxia Xie, Jianlong Fu, Meibao Yao, Shao-Yuan Lo,
-            Wen-Huang Cheng.
-          </p>
-          <p>
-            This survey studies social world models for embodied agents, covering Theory of Mind,
-            belief dynamics, affective modeling, multi-agent coordination, and socially grounded
-            decision making.
-          </p>
+          <figure class="publication-figure">
+            <img src="assets/publication-survey.png" alt="Overview of the Social World Models survey" />
+            <span class="venue-badge">ACM CSUR</span>
+          </figure>
+          <div class="publication-content">
+            <p class="paper-meta">ACM Computing Surveys | Under Review</p>
+            <h3>Social World Models: A Comprehensive Survey of Theory of Mind and Social Coordination</h3>
+            <p>
+              Ruoxuan Zhang, <strong>Ziqi Liao</strong>, Zhiyu Zhou, Jian-Yu Jiang-Lin, Siyu Wu,
+              Yanbo Mao, Bin Wen, Hongxia Xie, Jianlong Fu, Meibao Yao, Shao-Yuan Lo,
+              Wen-Huang Cheng.
+            </p>
+            <p>
+              This survey organizes social world models into individual agency, mental-state inference,
+              and social coordination, and outlines challenges in long-horizon, interactive, and embodied
+              social reasoning.
+            </p>
+            <div class="text-links">
+              <a href="https://github.com/avclabjlu/Awesome-Social-World-Models" target="_blank" rel="noreferrer">[Paper List]</a>
+              <a href="https://mp.weixin.qq.com/s?__biz=MzkxMDcxMjA5MA==&amp;mid=2247484300&amp;idx=1&amp;sn=679f92e2fccc153ef9c04a831f983a71" target="_blank" rel="noreferrer">[Chinese Overview]</a>
+              <a href="https://www.bilibili.com/video/BV1Hgu56NEeX/" target="_blank" rel="noreferrer">[Video]</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication-item">
+          <figure class="publication-figure">
+            <img src="assets/publication-art.png" alt="Qualitative and quantitative overview of ArtSpectra" />
+            <span class="venue-badge">CVPR 2027</span>
+          </figure>
+          <div class="publication-content">
+            <p class="paper-meta">CVPR 2027 (CCF-A) | Under Review</p>
+            <h3>ArtSpectra: Asymmetric Spectral Recomposition for Reference-Guided Artistic Generation</h3>
+            <p>
+              Zihan Li, Yuer Liu, <strong>Ziqi Liao</strong>, Yusen Xie, Jian-Yu Jiang-Lin,
+              Wen-Huang Cheng, Hongxia Xie.
+            </p>
+            <p>
+              ArtSpectra is a training-free framework that asymmetrically recomposes reference attention
+              keys and values to balance prompt fidelity, reference-style fidelity, and aesthetic quality.
+            </p>
+          </div>
+        </article>
+
+        <article class="publication-item">
+          <figure class="publication-figure">
+            <img src="assets/publication-pip.png" alt="Evidence-admissibility example from PIP-ToM" />
+            <span class="venue-badge">IJCV</span>
+          </figure>
+          <div class="publication-content">
+            <p class="paper-meta">IJCV (CCF-A) | In Preparation</p>
+            <h3>Who Knows What—and What Does It Support? Perspective-Bounded Evidence Calibration for Multimodal Theory of Mind</h3>
+            <p>
+              <strong>Ziqi Liao</strong>, Jiaqi Shen, Yiming Na, Kedi Lyu, Shao-Yuan Lo, Hongxia Xie.
+            </p>
+            <p>
+              PIP-ToM treats multimodal Theory-of-Mind reasoning as an evidence-admissibility problem:
+              it builds agent-specific evidence stores, aligns evidence with structured mental-state claims,
+              and calibrates model-based hypothesis scores to reduce perspective leakage and source confusion.
+            </p>
+            <div class="text-links">
+              <a href="https://arxiv.org/abs/2610.36824" target="_blank" rel="noreferrer">[arXiv]</a>
+              <a href="https://ziqiliao77.github.io/PIP-ToM/" target="_blank" rel="noreferrer">[Project]</a>
+            </div>
+          </div>
         </article>
       </section>
 
@@ -140,7 +198,7 @@
           <span class="section-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24"><path d="M3 4h18v12H3V4Zm7 14h4v2h4v2H6v-2h4v-2Z"/></svg>
           </span>
-          Presentation
+          Presentations
         </h2>
 
         <div class="presentation-list">
@@ -178,6 +236,42 @@
               <a href="https://www.bilibili.com/video/BV1cv6mBKEpH/?share_source=copy_web&amp;vd_source=1cf4854082bc4e5948867316b90c75b4" target="_blank" rel="noreferrer">Part 4 | Challenges and Future Directions</a>
             </div>
           </details>
+
+          <article class="presentation-item">
+            <img src="assets/presentation-social-trust.png" alt="Cover for the social robot trust presentation" />
+            <div>
+              <p class="paper-meta">Paper Presentation</p>
+              <h3>“What’s on Your Mind?”: Multidimensional Trust Development in Social Robots</h3>
+              <a href="https://www.bilibili.com/video/BV1an846BEGR/" target="_blank" rel="noreferrer">Watch</a>
+            </div>
+          </article>
+
+          <article class="presentation-item">
+            <img src="assets/presentation-nano-emox.png" alt="Cover for the Nano-EmoX presentation" />
+            <div>
+              <p class="paper-meta">Paper Presentation</p>
+              <h3>Nano-EmoX: Unifying Multimodal Emotional Intelligence from Perception to Empathy</h3>
+              <a href="https://www.bilibili.com/video/BV1gM4R66Et3/" target="_blank" rel="noreferrer">Watch</a>
+            </div>
+          </article>
+
+          <article class="presentation-item">
+            <img src="assets/presentation-empathy.png" alt="Cover for the empathic communication evaluation presentation" />
+            <div>
+              <p class="paper-meta">Paper Presentation</p>
+              <h3>When Large Language Models Are Reliable for Judging Empathic Communication</h3>
+              <a href="https://www.bilibili.com/video/BV1u1ti6xEzq/" target="_blank" rel="noreferrer">Watch</a>
+            </div>
+          </article>
+
+          <article class="presentation-item">
+            <img src="assets/presentation-social-world-models.png" alt="Cover for the Social World Models survey presentation" />
+            <div>
+              <p class="paper-meta">Survey Presentation</p>
+              <h3>Social World Models: A Comprehensive Survey of Theory of Mind and Social Coordination</h3>
+              <a href="https://www.bilibili.com/video/BV1Hgu56NEeX/" target="_blank" rel="noreferrer">Watch</a>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -189,6 +283,13 @@
           Honors
         </h2>
         <ul class="line-list honors-list">
+          <li>
+            <span class="list-date">2026</span>
+            <div>
+              <strong>Tencent Kaiwu Artificial Intelligence Global Competition</strong>
+              <em>First Prize, Northern Regional Division</em>
+            </div>
+          </li>
           <li>
             <span class="list-date">2025</span>
             <div>
@@ -211,33 +312,11 @@
             </div>
           </li>
           <li>
-            <span class="list-date">2025</span>
-            <div>
-              <strong>Chinese College Student Computer Design Competition</strong>
-              <em>Second Prize, Jilin Province</em>
-            </div>
-          </li>
-          <li>
-            <span class="list-date">2024-2025</span>
+            <span class="list-date">2024–2026</span>
             <div>
               <strong>Jilin University Undergraduate Scholarship</strong>
-              <em>Third Class Undergraduate Scholarship; Academic Scholarship</em>
+              <em>Third Class Undergraduate Scholarship</em>
             </div>
-          </li>
-        </ul>
-      </section>
-
-      <section id="invited-talk" class="content-section">
-        <h2>
-          <span class="section-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24"><path d="M12 14a4 4 0 0 0 4-4V5a4 4 0 0 0-8 0v5a4 4 0 0 0 4 4Zm7-4a7 7 0 0 1-14 0H3a9 9 0 0 0 8 8.94V22h2v-3.06A9 9 0 0 0 21 10h-2Z"/></svg>
-          </span>
-          Invited Talk
-        </h2>
-        <ul class="line-list">
-          <li>
-            <span class="list-date">May 2025</span>
-            <div>Presented agent development and application cases based on a low-code platform at Liwang Experimental Primary School, Changchun.</div>
           </li>
         </ul>
       </section>
@@ -247,12 +326,15 @@
           <span class="section-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24"><path d="M12 3 2 8l10 5 10-5-10-5Zm-7 8v5.5C7 18.7 9.3 20 12 20s5-1.3 7-3.5V11l-7 3.5L5 11Z"/></svg>
           </span>
-          Teaching
+          Teaching Experience
         </h2>
         <ul class="line-list">
           <li>
             <span class="list-date">Spring 2026</span>
-            <div>Teaching Assistant, Pattern Recognition, Jilin University; supported laboratory-session teaching.</div>
+            <div>
+              <strong>Teaching Assistant, Pattern Recognition</strong>
+              <em>Supported laboratory sessions and helped design and refine laboratory assignments.</em>
+            </div>
           </li>
         </ul>
       </section>
