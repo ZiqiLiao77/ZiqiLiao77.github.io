@@ -179,13 +179,6 @@ svg {
   line-height: 1.52;
 }
 
-.about-research {
-  margin: 8px 0 0;
-  color: var(--text);
-  font-size: 1rem;
-  line-height: 1.52;
-}
-
 .content-section {
   scroll-margin-top: 104px;
   padding: 40px 0 22px;
@@ -501,8 +494,7 @@ svg {
     padding: 34px 0 18px;
   }
 
-  .about-text,
-  .about-research {
+  .about-text {
     font-size: 1rem;
   }
 
