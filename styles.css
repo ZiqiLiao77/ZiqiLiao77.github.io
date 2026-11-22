@@ -399,6 +399,13 @@ svg {
   font-weight: 800;
 }
 
+.line-list .entry-institution {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-weight: 650;
+}
+
 .line-list em {
   margin-top: 2px;
   color: var(--text);
