@@ -179,6 +179,13 @@ svg {
   line-height: 1.52;
 }
 
+.about-research {
+  margin: 8px 0 0;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.52;
+}
+
 .content-section {
   scroll-margin-top: 104px;
   padding: 40px 0 22px;
@@ -213,13 +220,6 @@ svg {
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 4px;
-}
-
-.research-text {
-  margin: 0;
-  color: var(--text);
-  font-size: 1rem;
-  line-height: 1.52;
 }
 
 .publication-item {
@@ -502,7 +502,7 @@ svg {
   }
 
   .about-text,
-  .research-text {
+  .about-research {
     font-size: 1rem;
   }
 
