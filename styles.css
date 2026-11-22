@@ -95,9 +95,9 @@ a:focus-visible {
 
 .profile-photo {
   display: block;
-  width: 130px;
-  height: 177px;
-  margin: 0 auto 16px;
+  width: 160px;
+  height: 218px;
+  margin: 0 auto 20px;
   object-fit: cover;
   object-position: center 20%;
   border: 6px solid #fff;
@@ -108,7 +108,7 @@ a:focus-visible {
 .profile-sidebar h1 {
   margin: 0;
   color: var(--ink);
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   line-height: 1.12;
 }
 
@@ -173,8 +173,10 @@ svg {
 }
 
 .about-email {
-  display: block;
-  margin-top: 4px;
+  margin: 4px 0 0;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.52;
 }
 
 .content-section {
@@ -205,7 +207,8 @@ svg {
   line-height: 1.52;
 }
 
-.about-text a {
+.about-text a,
+.about-email a {
   color: var(--blue);
   font-weight: 700;
   text-decoration: underline;
@@ -428,7 +431,7 @@ svg {
   }
 
   .profile-photo {
-    width: min(130px, 100%);
+    width: min(160px, 100%);
     height: auto;
   }
 
