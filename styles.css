@@ -172,6 +172,11 @@ svg {
   min-width: 0;
 }
 
+.about-email {
+  display: block;
+  margin-top: 4px;
+}
+
 .content-section {
   scroll-margin-top: 104px;
   padding: 40px 0 22px;
